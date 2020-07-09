@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border: 1px solid grey;*/
+
+}
+
+body {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+
+}
+
+.home {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+
+}
+
+.involved {
+    background-color: #FFCD69;
+
+}
+
+.home:hover{
+    background-color:#9C3A01;
+    box-shadow: inset 0 0 0 2px black;
+    
+}
+
+.learn:hover{
+    background-color: #087DA3;
+    box-shadow: inset 0 0 0 2px black;
+}
+
+.involved:hover{
+    background-color: #C59004;
+    box-shadow: inset 0 0 0 2px black;
+}
+
+header nav {
+    padding: 30px 0 60px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 150px;
+}
+
+nav a:first-child {
+    margin-right: 100px;
+}
+
+nav a:last-child {
+    margin-left: 100px;
+}
+
+h1 {
+    font-family: "Chelsea Market";
+    font-size: 43px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+
+h2 {
+    font-family: "Chelsea Market";
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.firstContainer {
+    background-color: #FFCD69;
+    padding: 30px;
+    
+}
+
+.stay {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#campImg {
+    background-image: url("stretch-img/camping.jpg");
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.campText{
+    width: 40%;
+}
+
+#campImg, .campText {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.secondContainer {
+    background-color: #5ED3EB;
+    padding: 30px;
+}
+
+.toDo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#hikeImg {
+    background-image: url("stretch-img/hiking.jpg");
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.hikeText{
+    width: 40%;
+}
+
+#hikeImg, .hikeText {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.thirdContainer {
+    background-color: #FF764E;
+    padding: 30px;
+
+}
+
+.toEat {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#picnicImg {
+    background-image: url("stretch-img/eating.jpg");
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-position: 25% 75%;
+
+}
+
+.picnicText{
+    width: 40%;
+}
+
+#picnicImg, .picnicText {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+footer nav{
+    background-color: #F9E7DC;
+    padding: 30px 0;
+}
